@@ -1,1 +1,3 @@
 "# Project-TrilhaEco" 
+
+- npm start
