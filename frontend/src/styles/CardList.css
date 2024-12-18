@@ -1,0 +1,58 @@
+.container-cardlist {
+  background-color: #eff7f3;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+.tittle-cardlist {
+  color: #0c9762;
+  font-weight: 700;
+  font-family: "inter";
+  font-size: 2.4vh;
+  margin-top: 2.5vh;
+  margin-bottom: 1.815vh;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.815vh;
+  margin-bottom: 1.815vh;
+  overflow: hidden;
+  position: relative; 
+}
+.grid-item img {
+  width: 100%;
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 5%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-item p {
+  z-index: 100;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "inter";
+  margin-bottom: 0px;
+}

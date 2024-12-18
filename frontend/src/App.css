@@ -1,0 +1,15 @@
+.app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-link {
+  color: #61dafb;
+}
